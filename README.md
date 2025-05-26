@@ -11,6 +11,7 @@ Este repositorio proporciona una configuración de Docker Compose para ejecutar 
 ## 📁 Estructura de Carpetas
 
 /db
+
 ├── docker-compose.yml
 
 ├── .env
