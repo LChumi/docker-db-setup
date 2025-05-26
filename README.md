@@ -12,18 +12,28 @@ Este repositorio proporciona una configuración de Docker Compose para ejecutar 
 
 /db
 ├── docker-compose.yml
-├── .env
-├── mongo/
-│ └── data/ # Datos persistentes de MongoDB
-├── postgres/
-│ ├── data/ # Datos persistentes de PostgreSQL
-│ ├── postgresql.conf # Configuración personalizada
-│ └── pg_hba.conf # Reglas de acceso
-├── mysql/
-│ └── data/ # Datos persistentes de MySQL
-└── backups/
-└── postgres/ # Aquí puedes guardar los archivos .dump
 
+├── .env
+
+├── mongo/
+
+│ └── data/ # Datos persistentes de MongoDB
+
+├── postgres/
+
+│ ├── data/ # Datos persistentes de PostgreSQL
+
+│ ├── postgresql.conf # Configuración personalizada
+
+│ └── pg_hba.conf # Reglas de acceso
+
+├── mysql/
+
+│ └── data/ # Datos persistentes de MySQL
+
+└── backups/
+
+└── postgres/ # Aquí puedes guardar los archivos .dump
 
 ---
 
